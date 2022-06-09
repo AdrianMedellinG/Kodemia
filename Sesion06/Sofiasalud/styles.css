@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+/* SAAN */
+header {
+    position: fixed;
+    top: 0;
+    background-color: hsla(0,0%,100%,.7);
+    height: 90px;
+    width: 100%;
+}
+
+header nav {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logo {
+    height: 32px;
+}
+
+.menu-items {
+    width: 900px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+}
+.menu-item {
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.menu-item:hover {
+    color: purple;
+}
+
+@media screen and (max-width: 991px) {
+.menu-items {
+    display: none;
+}
+
+.logo {
+    margin-left: 50px;
+}
+}
+
+@media screen and (min-width: 991px) {
+    .menu-mobile {
+    display: none;
+    }
+}
+
+.menu-mobile > img {
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;;
+}
+
+@media screen and (max-width: 991px) {
+    .menu-principal-mobile {
+        height: 100vh;
+        width: 100vw;
+        background-color: #4a25aa;
+        position: fixed;
+        display: none;
+    }
+}
+
+.menu:checked + .menu-principal-mobile {
+    display: block;
+}
+
+.menu-principal-mobile {
+    display: none;
+}
+    
+.menu-items-mobile {
+    width: 900px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu-item-mobile {
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 32px;   
+}
+
+.smaller {
+    font-size: 20px;
+}
+
+.logo-blanco {
+    height: 32px;
+    margin: 20px;
+}
+
+.boton-cerrar {
+    float: right;
+    margin: 20px;
+}
+
+/* FIN SAAN */
+/* MARCO */
+
+
+/* FIN MARCO */
+/* ADRIAN */
+
+#planes h2 {
+    margin-bottom: 60px;
+    color: #323c61;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%;
+    margin-top: 20px;;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    #planes h2 {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    #planes h2 {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px;
+        line-height: 110%;
+    }
+}
+
+.planes .cuadrosPlanes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    .planes .cuadrosPlanes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .planes .cuadrosPlanes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.planes .cuadrosPlanes .opcionesPlanes {
+    margin: 0px 20px 20px 20px;
+    border: 2px solid #f2f4f8;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.planes .cuadrosPlanes .opcionesPlanes .imgplanes {
+    margin: 20px;
+}
+
+.planes .cuadrosPlanes .opcionesPlanes .plan-tag {
+    background-color: #f2f4f8;
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+
+#planes {
+    margin: 100px;
+    padding: 0px 50px;
+    height: 550px;
+}
+
+@media screen and (max-width: 767px) {
+    #planes {
+        padding: 0px 50px;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #planes {
+        padding: 0px 100px;
+    }
+}
+
+#planes h3 {
+    color: #4a25aa;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#planes p {
+    display: block;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    color: #707790;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#planes .cuadrosPlanes .opcionesPlanes .plan-tag .boton {
+    position: static;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-content: center;
+    border-radius: 99px;
+    background-color: #4a25aa;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    #planes .cuadrosPlanes .opcionesPlanes .plan-tag .boton {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #planes .cuadrosPlanes .opcionesPlanes .plan-tag .boton {
+        margin-right: 120px;
+        margin-left: 120px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    .planes .cuadrosPlanes .opcionesPlanes {
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .planes .cuadrosPlanes .opcionesPlanes{
+        height: 280px;
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 50px;
+}
+
+footer .footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-image {
+    height: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4a25aa;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-link {
+    display: block;
+    margin-bottom: 10px;
+    color: #323c61;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    footer .footer-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: left;
+    }
+}
+
+footer .copyright {
+    color: #323c61;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}

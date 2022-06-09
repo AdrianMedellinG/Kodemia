@@ -1,0 +1,124 @@
+.flex {
+    display: flex;
+    border: 0px black groove;
+    height: 50px;
+    width: 800px;
+}
+
+.cuadro {
+    height: 80px;
+    width: 50px;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+.banderas {
+    display: flex;
+    border: 0px black groove;
+    height: 50px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.francia {
+    height: 100px;
+    width: 50px;
+}
+
+.suecia {
+    height: 100px;
+    width: 50px;
+}
+
+.cuadro1 {
+    height: 20px;
+    width: 150px;
+}
+
+.flex-1 {
+    display: flex;
+    border: 0px black groove;
+    height: 20px;
+    width: 600px;
+}
+
+.mexico {
+    display: flex;
+    height: 100px;
+    width: 50px;
+}
+
+.aguila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro5 {
+    height: 40px;
+    width: 50px;
+}
+
+.cuadro9 {
+    height: 40px;
+    width: 90px;
+}
+
+.cuadro2 {
+    height: 40px;
+    width: 20px;
+}
+
+.cuadro160 {
+    height: 20px;
+    width: 160px;
+}
+
+.flex-suecia {
+    display: flex;
+    border: 0px black groove;
+    height: 40px;
+    width: 800px;
+}

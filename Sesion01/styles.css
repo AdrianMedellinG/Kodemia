@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+header {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: ;
+}

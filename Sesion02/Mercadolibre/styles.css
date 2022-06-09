@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Monte Carlo', sans-serif;
+    background: #e6e6e6;
+}
+
+header {
+    background-color: #fff059;
+    height: 250px;
+}
+
+.titulo {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .0125rem;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.subtitulo {
+    font-size: 15px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.login-input {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: #3483fa;
+}
+
+input:focus {
+    color: #000000;
+    border: 2px solid #3483fa;
+}
+
+input:hover {
+    border: 2px solid #3483fa;
+}
+
+.login-buttons {
+    margin: 0.75rem 0 0.75rem;
+    border-color: transparent;
+    color: #fff;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    place-content: center;
+    border-radius: 5px;
+}
+
+.color-primario {
+    background-color: #3483fa;
+}
+
+.color-primario:hover {
+    background-color: hsl(216, 63%, 41%);
+}
+
+.color-secundario {
+    color: #3483fa;
+}
+
+.color-secundario:hover {
+    background: hsl(205, 100%, 97%);
+    color: #3483fa;
+}
+
+#botones {
+    text-align: -webkit-center;
+}
+
+.logo {
+    padding-top: 15px;
+    padding-left: 80px;
+    height: 10%;
+    width: 10%;
+}
+
+.question {
+    float: right;
+    padding-top: 15px;
+    padding-right: 100px;
+    height: 20px;
+    width: 20px;
+}
+
+#box {
+    background-color: #fff;
+    height: 300px;
+    width: 350px;
+    margin-left: 455px;
+    margin-top: -80px;
+    padding: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a.login-buttons {
+    padding-top: 10px;
+    height: 20px;
+}
+
+.recaptcha {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    color: gray;
+}
+
+footer {
+    background-color: #fff;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.footer-link {
+    color: black;
+}
+
+.ayuda {
+    margin-top: 40px;
+    text-align: center;
+    color: #3483fa;
+    display: block;
+    line-height: 20px;
+}
+
+.ayuda:hover {
+    background-color: hsl(205, 100%, 97%);
+}
