@@ -1,0 +1,117 @@
+$color-green: hsl(136, 65%, 51%);
+$color-blue: hsl(192, 70%, 51%);
+body{
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(233, 26%, 24%);
+    font-size: 18px;
+    width: 100vw;
+    height: 100wh;
+}
+
+
+.degradado{
+    background: linear-gradient(0.25turn,$color-green, $color-blue)
+}
+
+.btn-primary{
+    border-color: transparent;
+}
+
+#banner{
+    height: 500px;
+
+    .title-banner {
+        font-size: 40px;
+        line-height: 3.5rem;
+    }
+    p{
+        color: hsl(233, 8%, 62%);
+    }
+    .imagen-principal{
+        background: url("/images/bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 100% 130%;
+        img{
+            width: 400px;
+        }
+    }
+  
+}
+
+@media screen and(max-width:767px) {
+    #banner{
+        height: 1000px;
+        width: 100%;
+        .title-banner {
+            font-size: 40px;
+            line-height: 3.5rem;
+        }
+        p{
+            color: hsl(233, 8%, 62%);
+        }
+        .imagen-principal{
+            background: url("/images/bg-intro-desktop.svg");
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: 100% 130%;
+            img{
+                width: 400px;
+            }
+        }
+      
+    }
+    
+}
+footer{
+    height: 170px;
+    background-color: hsl(233, 26%, 24%);
+    color: hsl(220, 16%, 96%);
+
+    .logo{
+        height: 20px;
+        width: 200px;
+    }
+
+    .redes-sociales{
+        text-align: center;
+        .redes{
+            height: 35px;
+            width: 35px;
+            padding: 3px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: hsl(220, 16%, 96%)
+    
+    }
+
+    a:hover{
+        color: $color-green;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li{
+        margin: 10px;
+    }
+
+    p{ 
+        font-size: 14px;
+    }
+
+}
+
+#Blog{
+
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: linear-gradient(0.25turn,$color-green, $color-blue);
+    border-radius: 50%;
+}

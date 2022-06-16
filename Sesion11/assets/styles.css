@@ -1,0 +1,98 @@
+body {
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(233deg, 26%, 24%);
+  font-size: 18px;
+  width: 100vw;
+  height: 100wh;
+}
+
+.degradado {
+  background: linear-gradient(0.25turn, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+}
+
+.btn-primary {
+  border-color: transparent;
+}
+
+#banner {
+  height: 500px;
+}
+#banner .title-banner {
+  font-size: 40px;
+  line-height: 3.5rem;
+}
+#banner p {
+  color: hsl(233deg, 8%, 62%);
+}
+#banner .imagen-principal {
+  background: url("/images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 100% 130%;
+}
+#banner .imagen-principal img {
+  width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  #banner {
+    height: 1000px;
+    width: 100%;
+  }
+  #banner .title-banner {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
+  #banner p {
+    color: hsl(233deg, 8%, 62%);
+  }
+  #banner .imagen-principal {
+    background: url("/images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100% 130%;
+  }
+  #banner .imagen-principal img {
+    width: 400px;
+  }
+}
+footer {
+  height: 170px;
+  background-color: hsl(233deg, 26%, 24%);
+  color: hsl(220deg, 16%, 96%);
+}
+footer .logo {
+  height: 20px;
+  width: 200px;
+}
+footer .redes-sociales {
+  text-align: center;
+}
+footer .redes-sociales .redes {
+  height: 35px;
+  width: 35px;
+  padding: 3px;
+}
+footer a {
+  text-decoration: none;
+  color: hsl(220deg, 16%, 96%);
+}
+footer a:hover {
+  color: hsl(136deg, 65%, 51%);
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  margin: 10px;
+}
+footer p {
+  font-size: 14px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: linear-gradient(0.25turn, hsl(136deg, 65%, 51%), hsl(192deg, 70%, 51%));
+  border-radius: 50%;
+}/*# sourceMappingURL=styles.css.map */
